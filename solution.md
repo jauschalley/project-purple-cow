@@ -37,4 +37,4 @@ Nice to Haves:
 3. All other CRUD operations are included in the API
 
 Additional Follow Up Tasks
-*I would absolutely add Swagger documentation to this application immediately.
+I would absolutely add Swagger documentation to this application immediately.
