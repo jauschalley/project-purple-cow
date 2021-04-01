@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Item.create(name: "best item")
+Item.create(name: "second best item")
+Item.create(name: "meh")
+Item.create(name: "itemist")
+Item.create(name: "itemer")
+Item.create(name: "iteam")
