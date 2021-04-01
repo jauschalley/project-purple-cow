@@ -11,4 +11,9 @@ Initial Setup for Project Purple Cow
 
 Day to Day Development with Docker
 1. Running Docker containers: `docker-compose up`
+* The application will be available on port 3000
 2. Shutting down the containers: `docker-compose down`
+3. To use the rails console
+* containers muse be running
+* in a new window, use: `docker-compose run app-rails rails c`
+*  use `exit` to leave the console
