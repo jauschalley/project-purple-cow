@@ -1,0 +1,19 @@
+version: '3'
+services:
+  db:
+    image: postgres:10.5-alpine
+    ports:
+      - 5432:5432
+    volumes:
+      - ./tmp/postgres_data:/var/lib/postgresql/data
+  app-rails:
+    container_name: app-rails
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/myapp'
+    depends_on:
+      - db
+    ports:
+      - "3000:3000"
