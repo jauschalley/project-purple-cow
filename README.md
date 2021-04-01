@@ -8,8 +8,8 @@ Initial Setup for Project Purple Cow
 4. Navigate to the `project-purple-cow` directory
 5. Build your docker containers: `docker-compose build`
 6. Set up the database
+  * `docker-compose run app-rails rails db:setup`
   * `docker-compose run app-rails rails db:migrate`
-  * `docker-compose run app-rails rails db:seed`
 7. Now, you should be able to run your containers with `docker-compose up`
 
 
