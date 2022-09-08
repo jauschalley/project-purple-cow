@@ -19,6 +19,6 @@ Day to Day Development with Docker
 2. Shutting down the containers: `docker-compose down`
 
 3. To use the rails console
-* containers muse be running
+* containers must be running
 * in a new window, use: `docker-compose run app-rails rails c`
 *  use `exit` to leave the console
